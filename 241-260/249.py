@@ -5,16 +5,12 @@
 """
 
 
-def prime_number(number):
-    listOfPrimeNumber = []
-    for x in range(number):
+def prime_number(max_num):
 
-        listOfPrimeNumber.append(x)
-
-    return listOfPrimeNumber
+    return ''
 
 
 if __name__ == "__main__":
     input_int = int(input())
-    list_return = prime_number(input_int)
-    print(list_return)
+    tuple_return = prime_number(input_int)
+    print(tuple_return)
